@@ -1,7 +1,7 @@
 import express from "express";
 import path from "path";
 import { fileURLToPath } from "url";
-import router from "./models/route/route.js";
+import router from "./route/route.js"
 import dbConnect from "./dbConnect.js";
 
 

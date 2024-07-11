@@ -1,7 +1,7 @@
 import express from "express";
 
 import { nanoid } from "nanoid";
-import urldata from "../url.js";
+import urldata from "../models/url.js";
 import { URL } from "node:url";
 
 const router = express.Router();
